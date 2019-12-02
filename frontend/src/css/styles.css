@@ -1,0 +1,22 @@
+.event-card {
+    margin: 10px;
+}
+
+.event-menu {
+    background-color: #BEE6EF;
+    height:100vh;
+}
+
+.options-card {
+    margin: 10px;
+}
+
+.options-menu {
+    background-color: #ffffff;
+    height:100vh;
+    border: 1px solid #BCBCBC;
+}
+
+.remove-accordion-border {
+    border: none;
+}

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  frontend:
+    image: "node:latest"
+    ports:
+    - "80:80"
+  backend:
+    image: "redis:alpine"
+  socket:
+    image: "node:latest"
+    ports:
+    - "3099:3099"
