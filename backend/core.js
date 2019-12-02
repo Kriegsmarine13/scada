@@ -8,14 +8,14 @@ const initOptions = {
     }
 }
 const pgp = require("pg-promise")(initOptions);
-const db = pgp("postgres://postgres:Ssdku2019@127.0.0.1:5432/test");
+const db = pgp("postgres://postgres:test123@68.183.216.87:5432/scada");
 
 app.use(cors());
 app.use(express.json());
 app.options('*', cors())
 
 app.get('/', async function(req, res) {
-    await db.any("SELECT * FROM test_table")
+    await db.any("SELECT * FROM users")
         .then(async function (data) {
             console.log("DATA:", data);
         })

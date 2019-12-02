@@ -1,18 +1,16 @@
 {
-  "name": "server",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/core.js",
+  "main": "core.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.1"
-  },
   "devDependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg-promise": "^10.3.1"
   }
 }

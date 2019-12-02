@@ -17,7 +17,7 @@ function Login(props) {
         console.log("userName: ",userName);
         console.log("password: ",password);
         // axios.get("http://localhost:3099/");
-        axios.post("http://10.88.0.10:3099/login", {
+        axios.post("http://localhost:3099/login", {
             userName,
             password
         }).then(result => {
